@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="js/jquery-2.2.1.js"></script>
+<script src="js/post.js"></script>
+<link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+
+<div id="login_bot" class="off">
+<button id="login"></button>
+<input id="identifica" type="hidden">
+</div>
+
+<div id="msg">
+<p id="msgtext"></p>
+</div>
+
+<div id="login_div" class="on">
+<form method="POST">
+<input id="send_login" pattern=".{1,30}" required title="Login" name="login" type="text">
+<input id="send_senha" pattern=".{1,30}" required title="Senha" name="senha" type="text">
+<input id="send_sessao" value="Enviar" name="sessao" type="submit">
+</form>
+</div>
+
+<h1>Home</h1>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #ff6a00; }
+
+div {
+  background-color: #ff0000; }
+
+#login, h1 {
+  background-color: #ff6a00;
+  margin-left: 50px; }
+
+.on {
+  visibility: visible; }
+
+.off {
+  visibility: hidden; }
+
+/*# sourceMappingURL=style.css.map */
